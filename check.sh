@@ -6,7 +6,7 @@
 #sudo apt-get update -y && sudo apt-get upgrade -y
 #sudo apt-get install git -y
 #mkdir -p /home/pi/detect && cd /home/pi/detect
-#git clone https://github.com/catonrug/adobe-reader-detect.git && cd adobe-reader-detect && chmod +x check.sh && ./check.sh
+#git clone https://github.com/catonrug/acrobat-reader-dc-detect.git && cd acrobat-reader-dc-detect && chmod +x check.sh && ./check.sh
 
 #check if script is located in /home direcotry
 pwd | grep "^/home/" > /dev/null
