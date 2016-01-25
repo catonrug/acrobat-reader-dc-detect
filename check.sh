@@ -313,7 +313,7 @@ echo "$sha1">> $db
 emails=$(cat ../posting | sed '$aend of file')
 printf %s "$emails" | while IFS= read -r onemail
 do {
-python ../send-email.py "$onemail" "$filename" "$msi 
+python ../send-email.py "$onemail" "Acrobat Reader DC installer $filename" "$msi 
 $md5
 $sha1"
 } done
@@ -363,7 +363,7 @@ echo "$sha1">> $db
 emails=$(cat ../posting | sed '$aend of file')
 printf %s "$emails" | while IFS= read -r onemail
 do {
-python ../send-email.py "$onemail" "$filename" "$msp 
+python ../send-email.py "$onemail" "Acrobat Reader DC patch $filename" "$msp 
 $md5
 $sha1"
 } done
